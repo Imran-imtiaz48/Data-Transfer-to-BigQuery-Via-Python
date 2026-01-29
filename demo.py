@@ -8,7 +8,7 @@ from google.oauth2 import service_account
 
 # BigQuery setup
 
-KEY_PATH = r"C:\Users\Moham\Downloads\groovy-datum-269018-c20afc51d870.json"
+KEY_PATH = r"path\to\service_account.json"
 
 credentials = service_account.Credentials.from_service_account_file(KEY_PATH)
 
@@ -85,3 +85,4 @@ try:
     )
 except Exception as e:
     print(f"Failed to fetch table info: {e}")
+
