@@ -1,6 +1,6 @@
 # SQL Server to BigQuery ETL
 
-This repository contains a Python ETL pipeline to extract data from Microsoft SQL Server and load it into **Google BigQuery**. It uses a helper class `SQLServer` for connecting, querying, and retrieving results into Pandas DataFrames.
+The repository contains a Python ETL pipeline to extract data from Microsoft SQL Server and load it into **Google BigQuery**. It uses a helper class `SQLServer` for connecting, querying, and retrieving results into Pandas DataFrames.
 
 ---
 
